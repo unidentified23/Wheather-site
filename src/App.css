@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  width: 110%;
+  height: 140vh;
+  margin: 0%;
+
+  color: #fff;
+  background: url('./Images/sunset.jpg') no-repeat center center/cover;
+}
+
+.App::before {
+  content: '';
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.App .top {
+  width: 100%;
+  margin: 1rem auto;
+
+}
+
+.app .description {
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+
+}
+
+.App .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.App .Search {
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  top: 20px;
+  border-radius: 30px;
+  height: 10%;
+
+}
+
+.App .input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::placeholder {
+  color: crimson;
+}
+
+.searchbutt {
+  background-color: rgba(220, 20, 60, 0.589);
+  border-radius: 30px;
+  height: 26px;
+  width: 40px;
+  background-image: url('./Images/search_icon.png');
+  position: relative;
+  top: 4.9px;
+  right: 42px;
+  border-color: crimson;
+
+}
+
+.Search1 {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0%; 
+  color: #fff;
+  background-image: url('./Images/sunset.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.searchinput {
+  border-radius: 30px;
+  height: 30px;
+  background-color: #ffffffa5;
+  border-color: crimson;
+  width: 200px;
+}
+
+.search2 {
+  border-radius: 30px;
+  height: 30px;
+  background-color: #ffffffa5;
+  border-color: crimson;
+  width: 200px;
+
+}
+
+.searchbutt2 {
+  background-color:rgba(220, 20, 60, 0.64);;
+  border-radius: 30px;
+  height: 28px;
+  background-image: url('./Images/search_icon.png');
+  position: relative;
+  top: 5px;
+  right: 44px;
+  border-color: crimson;
+  color: #fff;
+}
