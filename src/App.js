@@ -29,7 +29,7 @@ function App() {
   if (data === null) {
     return (
       <div className="Search1">
-        <h1>Search</h1>
+        <h1 className="heading">Search</h1>
         <form onSubmit={SearchLocation}>
           <input
             value={location}
@@ -60,13 +60,13 @@ function App() {
       <div className="container">
         <div className="top">
           <div className="location">
-            <p>{data.name}</p>
+            <p className="cityname">{data.name}</p>
           </div>
           <div className="temp">
             {data.main ? <h1>{data.main.temp}°F</h1> : null}
           </div>
           <div className="descpription">
-            {data.weather ? <p>{data.weather[0].description}</p> : null}
+            {data.weather ? <p className="descript">{data.weather[0].description}</p> : null}
             
           </div>
         </div>
@@ -82,7 +82,7 @@ function App() {
             <p>humidity</p>
           </div>
           <div className="Wind">
-          {data.wind ? <p>{data.wind.speed}MPH</p> :null}
+          {data.wind ? <p className="windtxt">{data.wind.speed}MPH</p> :null}
 
             <p className="Wind">wind speed</p>
           </div>

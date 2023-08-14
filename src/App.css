@@ -58,6 +58,12 @@
 
 .bold {
   font-weight: 700;
+  color: black;
+}
+
+.windtxt{
+  color: black;
+  font-weight: bold;
 }
 
 .App .Search {
@@ -104,7 +110,14 @@
   background-image: url('./Images/sunset.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+ 
+}
 
+.heading{
+  position: relative;
+  bottom: 65px;
+  height: 65px; 
+  background-image: url('./Images/sunset.jpg');
 
 }
 
@@ -135,4 +148,12 @@
   right: 44px;
   border-color: crimson;
   color: #fff;
+}
+
+.descript{
+  font-weight: bold;
+}
+
+.cityname{
+  font-weight: bold;
 }
